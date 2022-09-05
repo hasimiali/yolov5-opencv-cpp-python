@@ -36,7 +36,7 @@ y_factor =  image_height / 640
 for r in range(25200):
     row = output_data[r]
     confidence = row[4]
-    if confidence >= 0.4:
+    if confidence.all() >= 0.4:
 
         classes_scores = row[5:]
         _, _, _, max_indx = cv2.minMaxLoc(classes_scores)
