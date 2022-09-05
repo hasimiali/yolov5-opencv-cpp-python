@@ -1,0 +1,6 @@
+{
+    "git.allowNoVerifyCommit": true,
+    "git.alwaysShowStagedChangesResourceGroup": true,
+    "git.alwaysSignOff": true,
+    "git.useEditorAsCommitInput": false
+}
